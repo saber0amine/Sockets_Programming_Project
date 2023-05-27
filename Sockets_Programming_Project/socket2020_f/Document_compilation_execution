@@ -1,0 +1,17 @@
+ensa@ensa-VirtualBox:~/Bureau/socket_2022$ gcc -c server.c
+ensa@ensa-VirtualBox:~/Bureau/socket_2022$ gcc -o server server.c
+ensa@ensa-VirtualBox:~/Bureau/socket_2022$ gcc -c server.c
+ensa@ensa-VirtualBox:~/Bureau/socket_2022$ ./server
+Socket successfully created..
+Socket successfully binded..
+Server listening..
+
+
+
+
+ensa@ensa-VirtualBox:~/Bureau/socket_2022$ gcc -c client.c
+ensa@ensa-VirtualBox:~/Bureau/socket_2022$ gcc -o client client.c
+ensa@ensa-VirtualBox:~/Bureau/socket_2022$ ./client
+Socket successfully created..
+connection with the server failed...
+
